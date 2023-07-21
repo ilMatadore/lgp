@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expect to render Card component 1`] = `
+<div
+  className="footer-container"
+>
+  <div
+    className="footer-links-container"
+  >
+    <div>
+      <Link
+        className="OptionLink"
+        to="/quienes"
+      >
+        Quienes somos
+      </Link>
+    </div>
+    <div>
+      <Link
+        className="OptionLink"
+        to="/"
+      >
+        Productos
+      </Link>
+    </div>
+    <div>
+      <Link
+        className="OptionLink"
+        to="/contact"
+      >
+        Contacto
+      </Link>
+    </div>
+  </div>
+  <div
+    className="footer-copyright"
+  >
+    <p>
+      Copyright © Granja Los Girasoles 
+      2023
+    </p>
+  </div>
+</div>
+`;

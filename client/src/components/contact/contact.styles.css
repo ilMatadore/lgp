@@ -1,0 +1,73 @@
+.contact-inputs {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
+
+.contact-input {
+  padding: 10px;
+  margin: 20px 10px;
+  border: none;
+  width: 50%;
+  background-color: transparent;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+  font-family: 'Amatic SC', cursive;
+}
+
+.contact-input:focus {
+  outline: none;
+}
+
+.contact-button {
+  font-size: 20px;
+  font-family: 'Amatic SC', cursive;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: orange;
+  font-weight: 900;
+  width: 20%;
+}
+
+.contact-button:hover {
+  background-color: darkorange;
+}
+
+textarea {
+  padding: 20px;
+  margin: 20px;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid black;
+  font-family: 'Amatic SC', cursive;
+  font-size: 36px;
+  width: 100%;
+  height: 120px;
+}
+
+.success-message {
+  color: #f9bc60;
+  background-color: #004643;
+  margin: 20px auto;
+  padding: 10px;
+  width: 80%;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 490px) {
+  .contact-button {
+    width: 40%;
+  }
+  h2,
+  h3 {
+    width: 80%;
+    margin: 20px auto;
+  }
+}

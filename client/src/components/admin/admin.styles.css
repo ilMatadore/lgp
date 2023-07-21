@@ -1,0 +1,17 @@
+.admin-panel-contentAndOptions-container {
+  display: flex;
+}
+
+.admin-panel-options-container {
+  flex-grow: 1;
+}
+
+.admin-panel-content-container {
+  flex-grow: 10;
+}
+
+.admin-panel-options-container > div {
+  padding-top: 20px;
+  text-align: left;
+  font-size: 28px;
+}

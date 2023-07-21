@@ -1,0 +1,157 @@
+.sections-container {
+  display: flex;
+}
+
+h1 {
+  margin: 10px;
+}
+
+.order-section {
+  width: 50%;
+  padding: 10px;
+}
+
+.delivery-section {
+  width: 50%;
+  padding: 10px;
+}
+
+.checkout-row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+  padding-top: 10px;
+}
+
+.checkout-rows-container {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.checkout-button-container {
+  padding-top: 30px;
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.checkout-button-container a {
+  width: 30%;
+  text-decoration: none;
+}
+
+.checkout-back-button {
+  font-size: 20px;
+  font-family: 'Amatic SC', cursive;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 900;
+  width: 100%;
+}
+
+.checkout-button {
+  font-size: 20px;
+  font-family: 'Amatic SC', cursive;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: orange;
+  font-weight: 900;
+  width: 30%;
+}
+
+.checkout-button:hover {
+  background-color: darkorange;
+}
+
+.checkout-inputs {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+
+.checkout-input {
+  padding: 5px;
+  margin: 15px 5px;
+  border: none;
+  width: 50%;
+  background-color: transparent;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+  font-family: 'Amatic SC', cursive;
+}
+
+.checkout-input:focus {
+  outline: none;
+}
+
+.checkout-inputs-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.success-message {
+  color: #f9bc60;
+  background-color: #004643;
+  margin: 20px auto;
+  padding: 10px;
+  width: 90%;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.success-order-message-1 {
+  font-size: 42px;
+  padding: 20px;
+  text-align: center;
+}
+
+.success-order-message-2 {
+  font-size: 30px;
+  padding: 40px;
+}
+
+@media screen and (max-width: 490px) {
+  .sections-container {
+    display: block;
+  }
+  .rows-container {
+    width: 90%;
+    margin: auto;
+  }
+  .order-section {
+    width: 90%;
+    margin: auto;
+  }
+  .total-container {
+    padding-right: 10px;
+  }
+  .delivery-section {
+    width: 90%;
+  }
+  .checkout-inputs {
+    padding: 10px;
+  }
+  .checkout-inputs-container {
+    display: block;
+  }
+  .checkout-input {
+    width: 80%;
+  }
+  .checkout-button {
+    width: 40%;
+  }
+  .checkout-rows-container {
+    max-height: 200px;
+  }
+}

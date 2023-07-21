@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expect to render Card component 1`] = `
+<div
+  className="card-container"
+  data-aos="flip-right"
+>
+  <p
+    className="card-title"
+  >
+    TEST CANASTA
+  </p>
+  <img
+    alt="vegetables"
+    height="150"
+    src="vegetables.png"
+    width="150"
+  />
+  <div
+    className="card-price"
+  >
+    $
+    200
+  </div>
+  <div>
+    <ul>
+      <li
+        key="1"
+      >
+        PEREJIL
+         
+        <span>
+          - 
+          1at
+        </span>
+      </li>
+      <li
+        key="2"
+      >
+        MIZUNA
+         
+        <span>
+          - 
+          1
+        </span>
+      </li>
+    </ul>
+  </div>
+  <button
+    className="card-button"
+  >
+    <FaCartPlus
+      className="card-cart-icon"
+      onClick={[Function]}
+    />
+  </button>
+</div>
+`;

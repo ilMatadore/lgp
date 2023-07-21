@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Tests Expect to render Header component 1`] = `
+<div
+  className="HeaderContainer"
+>
+  <div
+    className="LogoContainer"
+  >
+    <img
+      alt="logo"
+      className="logo"
+      src="logo3.png"
+    />
+    <span
+      className="title"
+    >
+      Los Girasoles
+    </span>
+  </div>
+  <div
+    className="OptionsContainer"
+  >
+    <div
+      className="OptionLink"
+      id="Menu"
+      onClick={[Function]}
+      to="/"
+    >
+      <FaBars
+        style={
+          Object {
+            "fontSize": "30px",
+          }
+        }
+      />
+    </div>
+    <Link
+      className="OptionLink"
+      id="Home"
+      to="/"
+    >
+      <FaHome
+        style={
+          Object {
+            "fontSize": "30px",
+          }
+        }
+      />
+    </Link>
+    <Link
+      className="OptionLink"
+      id="Quienes"
+      to="/quienes"
+    >
+      <FaAddressCard
+        style={
+          Object {
+            "fontSize": "30px",
+          }
+        }
+      />
+    </Link>
+    <Link
+      className="OptionLink"
+      id="Contact"
+      to="/contact"
+    >
+      <FaEnvelope
+        style={
+          Object {
+            "fontSize": "30px",
+          }
+        }
+      />
+    </Link>
+    <Link
+      className="OptionLink"
+      id="Cart"
+      to="/cart"
+    >
+      <FaShoppingCart
+        style={
+          Object {
+            "fontSize": "30px",
+          }
+        }
+      />
+    </Link>
+    <Link
+      className="OptionLink"
+      id="SignIn"
+      to="/signin"
+    >
+      <FaSignInAlt
+        style={
+          Object {
+            "fontSize": "30px",
+          }
+        }
+      />
+    </Link>
+  </div>
+</div>
+`;

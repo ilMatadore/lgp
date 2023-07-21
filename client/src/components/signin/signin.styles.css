@@ -1,0 +1,51 @@
+.signin-inputs {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+}
+
+.signin-input {
+  padding-top: 10px;
+  margin: 20px auto;
+  border: none;
+  width: 50%;
+  background-color: transparent;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+  font-family: 'Amatic SC', cursive;
+}
+
+.signin-input:focus {
+  outline: none;
+}
+
+.sign-in-button {
+  font-size: 20px;
+  font-family: 'Amatic SC', cursive;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: orange;
+  font-weight: 900;
+  width: 20%;
+}
+
+.sign-in-button:hover {
+  background-color: darkorange;
+}
+
+@media screen and (max-width: 600px) {
+  .signin-inputs {
+    width: 80%;
+  }
+  .signin-input {
+    width: 80%;
+  }
+  .sign-in-button {
+    width: 50%;
+  }
+}

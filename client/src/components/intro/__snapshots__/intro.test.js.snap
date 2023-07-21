@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expect to render Intro component 1`] = `
+<div
+  className="intro-container"
+>
+  <p
+    className="intro-text"
+    data-aos="zoom-out"
+  >
+    Productos Orgánicos de Nuestra Tierra a tu Hogar
+  </p>
+  <a
+    className="intro-button"
+    href="#canastas"
+  >
+    HACE TU PEDIDO
+  </a>
+</div>
+`;

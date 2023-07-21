@@ -1,0 +1,134 @@
+.products-page-container {
+  background-color: #004643;
+  padding: 30px 0 0;
+  margin-bottom: -200px;
+}
+
+.products-container {
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.products-text-top,
+.products-text-bottom {
+  color: white;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.products-text-top h2 {
+  font-size: 50px;
+}
+
+.products-text-top,
+.products-text-bottom p {
+  font-size: 30px;
+}
+
+.products-aditionals {
+  margin: 100px auto;
+  width: 40%;
+}
+
+.products-follow-us {
+  color: white;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.products-image-bottom-container {
+  margin-top: 50px;
+  background-image: url('../../assets/ja-ma.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.products-subtitle {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+}
+
+.to-cart-button-container {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.to-cart-button {
+  text-align: center;
+  background-color: orange;
+  font-weight: 900;
+  border-radius: 10px;
+  padding: 10px;
+  width: 20%;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 25px;
+  margin: auto;
+  color: black;
+}
+
+.to-cart-button:hover {
+  background-color: darkorange;
+  box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.to-cart-button:visited {
+  color: black;
+}
+
+@media screen and (max-width: 490px) {
+  .products-aditionals {
+    margin: 100px auto;
+    width: 90%;
+  }
+  .products-subtitle {
+    font-size: 25px;
+  }
+  .products-text-top {
+    width: 80%;
+  }
+  .products-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  .to-cart-button-container {
+    width: 70%;
+  }
+  .to-cart-button {
+    width: 40%;
+    font-size: 30px;
+  }
+  .products-aditionals {
+    margin: 80px auto;
+  }
+  .products-follow-us {
+    font-size: 30px;
+    width: 90%;
+  }
+  .footer-links-container {
+    width: 100%;
+    justify-content: space-around;
+    font-size: 25px;
+  }
+  .footer-copyright {
+    font-size: 20px;
+  }
+}

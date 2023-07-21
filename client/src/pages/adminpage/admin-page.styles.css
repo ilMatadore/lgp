@@ -1,0 +1,25 @@
+.admin-page-container {
+  min-height: calc(100vh - 250px);
+  width: 100%;
+  margin: 100px auto;
+}
+.admin-page-content-container {
+  width: 90%;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 50px;
+  text-align: center;
+  color: #004643;
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+  box-shadow: 10px 10px 25px 10px rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (max-width: 490px) {
+  .admin-page-content-container {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+  }
+}

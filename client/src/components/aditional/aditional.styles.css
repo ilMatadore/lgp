@@ -1,0 +1,49 @@
+.adicional {
+  color: #004643;
+  padding: 5px 15px;
+  width: 80%;
+  margin: 15px auto;
+  font-size: 25px;
+  background-color: #abd1c6;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+}
+
+.adicional:hover {
+  transform: scale(1.05);
+}
+
+.adicional-title {
+  display: flex;
+  width: 70%;
+  font-weight: 900;
+}
+
+.adicional-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.adicional-cart-icon {
+  font-size: 40px;
+}
+
+.adicional-cart-icon:hover {
+  color: red;
+}
+
+.adicional-price {
+  font-size: 30px;
+  font-weight: 900;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 490px) {
+  .adicional-price {
+    padding-right: 10px;
+  }
+}

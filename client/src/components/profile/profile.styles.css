@@ -1,0 +1,92 @@
+.profile-inputs {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
+
+.profile-input {
+  padding: 10px;
+  margin: 20px 10px;
+  border: none;
+  width: 50%;
+  background-color: transparent;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+  font-family: 'Amatic SC', cursive;
+}
+
+.profile-input:focus {
+  outline: none;
+}
+
+.profile-button {
+  font-size: 20px;
+  font-family: 'Amatic SC', cursive;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: orange;
+  font-weight: 900;
+  width: 20%;
+}
+
+.profile-button:hover {
+  background-color: darkorange;
+}
+
+.profile-past-orders-container {
+  padding: 30px 10px;
+  width: 60%;
+  margin: auto;
+}
+
+.profile-past-orders {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-past-order {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.past-order-data {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.table-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-inputs-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 490px) {
+  .profile-inputs {
+    padding: 10px;
+  }
+  .profile-inputs-container {
+    display: block;
+  }
+  .profile-input {
+    width: 80%;
+  }
+  .profile-button {
+    width: 40%;
+  }
+  .profile-past-orders-container {
+    width: 90%;
+  }
+}

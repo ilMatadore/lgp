@@ -1,0 +1,103 @@
+.cart-container {
+  padding: 5px 20px;
+  width: 70%;
+  margin: auto;
+}
+
+.table-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.rows-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+}
+
+.rows-container span {
+  line-height: 40px;
+  width: 100%;
+}
+
+.rows-container div {
+  width: 33%;
+}
+
+.rows-container > div:first-of-type {
+  text-align: left;
+  width: 40%;
+}
+
+.rows-container > div:last-of-type {
+  text-align: right;
+  width: 40%;
+}
+
+.total-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cart-button-container {
+  padding-top: 30px;
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cart-button-container a {
+  width: 30%;
+}
+
+.cart-back-button {
+  font-size: 20px;
+  font-family: 'Amatic SC', cursive;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 900;
+  width: 100%;
+}
+
+.cart-button {
+  font-size: 20px;
+  font-family: 'Amatic SC', cursive;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: orange;
+  font-weight: 900;
+  width: 100%;
+}
+
+.cart-button:hover {
+  background-color: darkorange;
+}
+
+a {
+  text-decoration: none;
+}
+
+.arrow-rows {
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 490px) {
+  .cart-container {
+    padding: 5px 5px;
+    width: 90%;
+    margin: auto;
+  }
+  .cart-button-container {
+    width: 100%;
+  }
+}

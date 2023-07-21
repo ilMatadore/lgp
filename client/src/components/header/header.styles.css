@@ -1,0 +1,143 @@
+.HeaderContainer {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  background-color: transparent;
+}
+
+.LogoContainer {
+  height: 100%;
+  width: 50%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.OptionsContainer {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 5px;
+}
+
+.OptionLink {
+  padding: 10px 15px;
+  cursor: pointer;
+  color: white;
+}
+
+.logo {
+  height: 100px;
+}
+
+.title {
+  font-size: 60px;
+  text-shadow: 2px 2px 4px black;
+  display: block;
+  font-family: Leckerli One;
+  color: #f9bc60;
+  padding-left: 10px;
+}
+
+.item-count {
+  color: #f9bc60;
+  border-radius: 50%;
+  padding-right: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+#Menu {
+  display: none;
+}
+
+.side-menu-container {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #004643;
+  opacity: 0.95;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.side-menu-container a {
+  padding: 15px 8px 15px 20px;
+  border-bottom: 1px black solid;
+  text-decoration: none;
+  font-size: 35px;
+  text-align: left;
+  font-weight: 900;
+  color: #f9bc60;
+  display: block;
+  transition: 0.3s;
+  text-shadow: 2px 2px 4px black;
+}
+
+.side-menu-container a:hover {
+  color: #f1f1f1;
+}
+
+.side-menu-container .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 45px;
+  margin-left: 50px;
+  background-color: transparent;
+}
+
+.header-user-name {
+  color: white;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 490px) {
+  .HeaderContainer {
+    height: 60px;
+    padding: 2px;
+    margin-bottom: 20px;
+  }
+  .LogoContainer {
+    width: 90%;
+  }
+  .OptionsContainer {
+    width: 10%;
+  }
+
+  .title {
+    font-size: 30px;
+    width: 100%;
+  }
+  .logo {
+    height: 55px;
+  }
+  #Home,
+  #Contact,
+  #Cart,
+  #SignIn,
+  #SignOut,
+  #Profile {
+    display: none;
+  }
+
+  #Menu {
+    display: block;
+  }
+  .header-user-name {
+    font-size: 16px;
+    text-align: right;
+  }
+  .OptionLink {
+    padding: 8px 8px;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,58 @@
+.intro-container {
+  margin: auto;
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../../assets/marisol.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.intro-text {
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+  font-family: 'Amatic SC', cursive;
+}
+
+.intro-button {
+  text-align: center;
+  background-color: orange;
+  font-weight: 900;
+  border-radius: 10px;
+  padding: 10px;
+  width: 20%;
+  margin: 60px auto;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+}
+
+.intro-button:hover {
+  background-color: darkorange;
+  box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.intro-button:visited {
+  color: black;
+}
+
+@media screen and (max-width: 490px) {
+  .intro-container {
+    width: 90%;
+    padding-top: 25px;
+  }
+  .intro-button {
+    width: 50%;
+  }
+  .intro-text {
+    font-size: 65px;
+  }
+}

@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expect to render Aditional component 1`] = `
+<div
+  className="adicional"
+  data-aos="flip-down"
+>
+  <div
+    className="adicional-title"
+  >
+    <p
+      style={
+        Object {
+          "paddingRight": "10px",
+        }
+      }
+    >
+      Mizuna
+    </p>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "float": "right",
+        "justifyContent": "flex-end",
+        "width": "30%",
+      }
+    }
+  >
+    <span
+      className="adicional-price"
+    >
+      $
+      20
+    </span>
+    <button
+      className="adicional-button"
+    >
+      <FaCartPlus
+        className="adicional-cart-icon"
+        onClick={[Function]}
+      />
+    </button>
+  </div>
+</div>
+`;

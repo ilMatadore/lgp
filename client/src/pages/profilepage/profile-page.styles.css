@@ -1,0 +1,22 @@
+.profile-page-container {
+  min-height: calc(100vh - 250px);
+  width: 100%;
+  margin: 100px auto;
+}
+.profile-page-form-container {
+  width: 60%;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 50px;
+  text-align: center;
+  color: #004643;
+  font-family: 'Amatic SC', cursive;
+}
+
+@media screen and (max-width: 490px) {
+  .profile-page-form-container {
+    width: 90%;
+    padding: 10px;
+  }
+}

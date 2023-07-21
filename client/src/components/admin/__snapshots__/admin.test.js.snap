@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expect to render Card component 1`] = `
+<div
+  className="admin-panel-container"
+>
+  <h1>
+    Admin Panel
+  </h1>
+  <div
+    className="admin-panel-contentAndOptions-container"
+  >
+    <div
+      className="admin-panel-options-container"
+    >
+      <div>
+        Users
+      </div>
+      <div>
+        Products
+      </div>
+      <div>
+        Canastas
+      </div>
+      <div>
+        Adicionales
+      </div>
+    </div>
+    <div
+      className="admin-panel-content-container"
+    >
+      Content
+    </div>
+  </div>
+</div>
+`;

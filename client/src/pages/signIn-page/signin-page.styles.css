@@ -1,0 +1,23 @@
+.sign-in-page-container {
+  min-height: calc(100vh - 250px);
+  width: 100%;
+  margin: 100px auto;
+}
+.signin-page-form-container {
+  width: 40%;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 50px;
+  text-align: center;
+  color: #004643;
+  box-shadow: 10px 10px 25px 10px rgba(0, 0, 0, 0.4);
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .signin-page-form-container {
+    width: 60%;
+  }
+}
